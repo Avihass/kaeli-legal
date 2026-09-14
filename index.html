@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kaeli legal information">
+<title>Legal · Kaeli</title>
+<style>
+:root {
+  --accent: #0A6ED1;
+  --bg: #F4F8FC;
+  --card: #FFFFFF;
+  --text: #17212B;
+  --muted: #667381;
+  --border: #DCE7F2;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+               "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.65;
+}
+header {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+nav {
+  max-width: 920px;
+  margin: auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.logo { color: var(--accent); font-weight: 750; font-size: 21px; text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 14px; }
+nav a:hover { color: var(--accent); }
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 58px 24px 80px;
+}
+.hero { margin-bottom: 42px; }
+.eyebrow {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(34px, 6vw, 52px); line-height: 1.08; margin: 10px 0 14px; }
+h2 { font-size: 25px; margin-top: 42px; }
+h3 { font-size: 18px; margin-top: 28px; }
+p, li { font-size: 16px; }
+.lead { color: var(--muted); font-size: 19px; max-width: 720px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 25px;
+  margin: 20px 0;
+}
+a { color: var(--accent); }
+footer {
+  max-width: 920px;
+  margin: auto;
+  padding: 25px 24px 50px;
+  color: var(--muted);
+  font-size: 13px;
+}
+footer a { color: var(--muted); margin-right: 16px; }
+.notice {
+  border-left: 4px solid var(--accent);
+  padding: 14px 18px;
+  background: #fff;
+  border-radius: 10px;
+}
+ul { padding-left: 25px; }
+@media (max-width: 600px) {
+  nav { align-items: flex-start; }
+  nav div { display: flex; flex-wrap: wrap; justify-content: flex-end; }
+  nav a { margin-left: 12px; }
+  main { padding-top: 40px; }
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<a class="logo" href="index.html">Kaeli</a>
+<div>
+<a href="privacy.html">Privacy Policy</a>
+<a href="terms.html">Terms of Use</a>
+</div>
+</nav>
+</header>
+<main>
+<section class="hero">
+<div class="eyebrow">Kaeli</div>
+<h1>Simple food management for your household.</h1>
+<p class="lead">Kaeli helps you manage your grocery inventory, shopping list, recipes, and household sharing.</p>
+</section>
+<div class="card">
+<h2>Legal</h2>
+<p><a href="privacy.html">Privacy Policy</a><br>
+How Kaeli handles information and data when you use the app.</p>
+<p><a href="terms.html">Terms of Use</a><br>
+The terms governing your use of Kaeli and Kaeli Pro subscriptions.</p>
+</div>
+<div class="card">
+<h2>Contact</h2>
+<p>For privacy, legal, subscription, or support questions, contact <a href="mailto:kaeliapp@outlook.com">kaeliapp@outlook.com</a>.</p>
+</div>
+</main>
+<footer>
+© 2026 Avidan Hassine · Kaeli
+<br><br>
+<a href="privacy.html">Privacy Policy</a>
+<a href="terms.html">Terms of Use</a>
+<a href="mailto:kaeliapp@outlook.com">Contact</a>
+</footer>
+</body>
+</html>
